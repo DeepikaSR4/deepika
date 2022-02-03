@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    background-color: #212529;
+    font-family:'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+
+h3{
+    margin-top: 5vh;
+    color: greenyellow;
+    text-align:left;
+    margin-bottom: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 3vw;
+}
+#projects{
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content:center; 
+  padding:2vh;
+  margin:2vh;
+  font-family:'Courier New', Courier, monospace;
+}
+footer{
+    display: flex;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+}
+.card-body{
+  font-family:'Courier New', Courier, monospace;
+  
+}
+.card-title{
+  font-weight: bold;
+}
+.img-fluid{
+  margin-left: 30px;
+  margin-top:10px;
+}
